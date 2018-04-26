@@ -37,7 +37,7 @@ function allDayNum(_year, _month) {
 				if(runNian(_year)) {
 					allDay = 29;
 				} else {
-					allDay = 28
+					allDay = 28;
 				}
 				break;
 			case 3:
@@ -101,8 +101,6 @@ function overDate(_y, _m, _d) {
 	rightDate.w = getDateWeek(_y, _m, _d);
 	return rightDate;
 }
-var sss = overDate(2018,5,-3);
-console.log(sss);
 
 //指定日期，转成 星期几
 function getDateWeek(_y, _m, _d) {
