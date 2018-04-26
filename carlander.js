@@ -140,7 +140,6 @@ function actionDateObj() {
 	for(var i in _dateObj) {
 		curdateObj[i] = _dateObj[i];
 	}
-	console.log("copyDate" + JSON.stringify(curdateObj));
 	return curdateObj;
 }
 //周日 是 几月 几号
