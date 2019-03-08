@@ -181,3 +181,15 @@ function dayAgo(y, m, d, t) {
 	nowObj.d = dateObj.getDate();
 	return nowObj;
 }
+
+//获取 今日 0:00 时间戳
+function getDayTime() {
+    let date = new Date();
+    let times = date.getTime();
+    let hour = date.getHours();
+    let minute = date.getMinutes();
+    let second = date.getSeconds();
+    let dayTime = times - hour * 3600 * 1000 - minute * 60 * 1000 - second * 1000;
+    return dayTime
+}
+
