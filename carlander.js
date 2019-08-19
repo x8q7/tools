@@ -1,6 +1,6 @@
 // 日期对象
-function _date() {
-	var dateObj = new Date();
+function _date(s) {
+	var dateObj = s ? new Date(s) : new Date();
 	var formatObj = {
 		y: dateObj.getFullYear(),
 		m: dateObj.getMonth() + 1,
