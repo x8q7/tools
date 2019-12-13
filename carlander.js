@@ -1,5 +1,5 @@
 // 日期对象
-function _date(s) {
+function formatDate(s) {
 	var dateObj = s ? new Date(s) : new Date();
 	var formatObj = {
 		y: dateObj.getFullYear(),
