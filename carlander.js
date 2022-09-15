@@ -193,3 +193,67 @@ function getDayTime() {
     return dayTime
 }
 
+
+// 数字 转 y m d
+function calcDayYYYMMDD(day) {
+    let _y = parseInt(day / 10000).toString();
+    let _m = (parseInt(day / 100 % 100)).toString().padStart(2, "0");
+    let _d = parseInt(day % 100).toString().padStart(2, "0");
+    return [_y, _m, _d];
+}
+
+// 计算 day 所在天，的周一
+function getDayFirstDate(day) {
+    let [y, m, d] = calcDayYYYMMDD(day);
+    let Nowdate = new Date(new Date(`${y}/${m}/${d}`).setHours(0, 0, 0, 0));
+    let weekDay = Nowdate.getDay();
+    weekDay = weekDay ? weekDay - 1 : 6;
+    let _first_day = new Date(Nowdate.getTime() - weekDay * 86400000).getTime(); // 本周第一天
+    let _first_date = formatDate(_first_day)
+    return [_first_date.y, _first_date.m, _first_date.d];
+}
+
+// 计算 day 所在天，的周日
+function getDayLastDate(day) {
+    let [y, m, d] = calcDayYYYMMDD(day);
+    let Nowdate = new Date(new Date(`${y}/${m}/${d}`).setHours(0, 0, 0, 0));
+    let weekDay = Nowdate.getDay();
+    weekDay = weekDay ? weekDay - 1 : 6;
+    let _last_day = new Date(Nowdate.getTime() + (7 - weekDay) * 86400000 - 1).getTime(); // 本周第一天
+    let _last_date = formatDate(_last_day)
+    return [_last_date.y, _last_date.m, _last_date.d];
+}
+
+// 获取 几天前 0点的 timestamp
+function getBeforedayStart(day) {
+    let now = Date.now();
+    return new Date(now - day * 86400000).setHours(0, 0, 0, 0);
+}
+
+// 获取 几天前 24点的 timestamp
+function getBeforedayEnd(day) {
+    let now = Date.now();
+    return new Date(now - day * 86400000).setHours(23, 59, 59, 999);
+}
+
+// 获取某天的开始时间
+function getOneDayStart([y, m, d]) {
+    return new Date(y, m * 1 - 1, d).setHours(0, 0, 0, 0);
+}
+function getOneDayEnd([y, m, d]) {
+    return new Date(y, m * 1 - 1, d).setHours(23, 59, 59, 999);
+}
+
+// 获取某月有多少天
+function getMonthLength(year, month) {
+    return new Date(year, month, 0).getDate();
+}
+
+// 获取某天的开始时间  by timestamp
+function getDayStartByTimeStamp(d) {
+    return new Date(d).setHours(0, 0, 0, 0);
+}
+function getDayEndByTimeStamp(d) {
+    return new Date(d).setHours(23, 59, 59, 999);
+}
+
