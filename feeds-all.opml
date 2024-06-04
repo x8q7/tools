@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <opml version="1.0">
+      <head>
+        <title>Feeds [https://plink.anyfeeder.com]</title>
+      </head>
+      <body>
+      
+<outline text="新闻" title="新闻">
+<outline text="iDaily 每日环球视野" title="iDaily 每日环球视野" type="rss" xmlUrl="https://plink.anyfeeder.com/idaily/today"  />
+<outline text="抽屉新热榜" title="抽屉新热榜" type="rss" xmlUrl="https://plink.anyfeeder.com/chouti/hot"  />
+<outline text="求是网" title="求是网" type="rss" xmlUrl="https://plink.anyfeeder.com/qstheory"  />
+<outline text="网易新闻 / 今日关注" title="网易新闻 / 今日关注" type="rss" xmlUrl="https://plink.anyfeeder.com/netease/today"  />
+<outline text="新华网 / 新华社新闻" title="新华网 / 新华社新闻" type="rss" xmlUrl="https://plink.anyfeeder.com/newscn/whxw"  />
+<outline text="联合早报 / 中国" title="联合早报 / 中国" type="rss" xmlUrl="https://plink.anyfeeder.com/zaobao/realtime/china"  />
+<outline text="联合早报 / 国际" title="联合早报 / 国际" type="rss" xmlUrl="https://plink.anyfeeder.com/zaobao/realtime/world"  />
+<outline text="南方周末 / 新闻" title="南方周末 / 新闻" type="rss" xmlUrl="https://plink.anyfeeder.com/infzm/news"  />
+<outline text="南方周末 / 推荐" title="南方周末 / 推荐" type="rss" xmlUrl="https://plink.anyfeeder.com/infzm/recommends"  />
+<outline text="澎湃新闻" title="澎湃新闻" type="rss" xmlUrl="https://plink.anyfeeder.com/thepaper"  />
+<outline text="人民网 / 头条" title="人民网 / 头条" type="rss" xmlUrl="https://plink.anyfeeder.com/people"  />
+<outline text="人民网 / 国内新闻" title="人民网 / 国内新闻" type="rss" xmlUrl="https://plink.anyfeeder.com/people/politics"  />
+<outline text="人民网 / 国际新闻" title="人民网 / 国际新闻" type="rss" xmlUrl="https://plink.anyfeeder.com/people/world"  />
+<outline text="人民网 / 英语新闻" title="人民网 / 英语新闻" type="rss" xmlUrl="https://plink.anyfeeder.com/people/english"  />
+<outline text="人民日报" title="人民日报" type="rss" xmlUrl="https://plink.anyfeeder.com/people-daily"  />
+<outline text="光明日报" title="光明日报" type="rss" xmlUrl="https://plink.anyfeeder.com/guangmingribao"  />
+<outline text="解放军报" title="解放军报" type="rss" xmlUrl="https://plink.anyfeeder.com/jiefangjunbao"  />
+<outline text="中国日报 / 双语新闻" title="中国日报 / 双语新闻" type="rss" xmlUrl="https://plink.anyfeeder.com/chinadaily/dual"  />
+<outline text="中国日报 / 专栏" title="中国日报 / 专栏" type="rss" xmlUrl="https://plink.anyfeeder.com/chinadaily/column"  />
+<outline text="中国日报 / 时政" title="中国日报 / 时政" type="rss" xmlUrl="https://plink.anyfeeder.com/chinadaily/china"  />
+<outline text="中国日报 / 资讯" title="中国日报 / 资讯" type="rss" xmlUrl="https://plink.anyfeeder.com/chinadaily/world"  />
+<outline text="中国日报 / 财经" title="中国日报 / 财经" type="rss" xmlUrl="https://plink.anyfeeder.com/chinadaily/caijing"  />
+<outline text="界面新闻: 新闻" title="界面新闻: 新闻" type="rss" xmlUrl="https://plink.anyfeeder.com/jiemian/news"  />
+</outline>
+<outline text="科技" title="科技">
+<outline text="数字尾巴" title="数字尾巴" type="rss" xmlUrl="https://plink.anyfeeder.com/dgtle"  />
+<outline text="36氪" title="36氪" type="rss" xmlUrl="https://plink.anyfeeder.com/36kr"  />
+<outline text="cnBeta" title="cnBeta" type="rss" xmlUrl="https://plink.anyfeeder.com/cnbeta"  />
+<outline text="IT 之家" title="IT 之家" type="rss" xmlUrl="https://plink.anyfeeder.com/ithome/it"  />
+<outline text="爱范儿" title="爱范儿" type="rss" xmlUrl="https://plink.anyfeeder.com/ifanr"  />
+<outline text="果壳网 / 科学人" title="果壳网 / 科学人" type="rss" xmlUrl="https://plink.anyfeeder.com/guokr/scientific"  />
+<outline text="虎嗅" title="虎嗅" type="rss" xmlUrl="https://plink.anyfeeder.com/huxiu"  />
+<outline text="少数派" title="少数派" type="rss" xmlUrl="https://plink.anyfeeder.com/sspai"  />
+<outline text="少数派 / Matrix" title="少数派 / Matrix" type="rss" xmlUrl="https://plink.anyfeeder.com/ssapi/matrix"  />
+<outline text="小众软件" title="小众软件" type="rss" xmlUrl="https://plink.anyfeeder.com/appinn"  />
+<outline text="超能网" title="超能网" type="rss" xmlUrl="https://plink.anyfeeder.com/expreview"  />
+<outline text="钛媒体" title="钛媒体" type="rss" xmlUrl="https://plink.anyfeeder.com/tmtpost"  />
+<outline text="猎云网" title="猎云网" type="rss" xmlUrl="https://plink.anyfeeder.com/lieyunwang"  />
+<outline text="品玩" title="品玩" type="rss" xmlUrl="https://plink.anyfeeder.com/pingwest"  />
+<outline text="阮一峰的网络日志" title="阮一峰的网络日志" type="rss" xmlUrl="https://www.ruanyifeng.com/blog/atom.xml"  />
+</outline>
+<outline text="知识" title="知识">
+<outline text="知乎日报" title="知乎日报" type="rss" xmlUrl="https://plink.anyfeeder.com/zhihu/daily"  />
+<outline text="知乎每日精选" title="知乎每日精选" type="rss" xmlUrl="http://www.zhihu.com/rss"  />
+<outline text="知乎热榜" title="知乎热榜" type="rss" xmlUrl="https://plink.anyfeeder.com/zhihu/hotlist"  />
+</outline>
+<outline text="财经" title="财经">
+<outline text="雪球 / 今日话题" title="雪球 / 今日话题" type="rss" xmlUrl="https://plink.anyfeeder.com/xueqiu/today"  />
+<outline text="雪球 / 热帖" title="雪球 / 热帖" type="rss" xmlUrl="https://plink.anyfeeder.com/xueqiu/hot"  />
+<outline text="财富中文网" title="财富中文网" type="rss" xmlUrl="https://plink.anyfeeder.com/fortunechina"  />
+<outline text="财富中文网 / 商业" title="财富中文网 / 商业" type="rss" xmlUrl="https://plink.anyfeeder.com/fortunechina/shangye"  />
+<outline text="财富中文网 / 领导力" title="财富中文网 / 领导力" type="rss" xmlUrl="https://plink.anyfeeder.com/fortunechina/lindgaoli"  />
+<outline text="财富中文网 / 科技" title="财富中文网 / 科技" type="rss" xmlUrl="https://plink.anyfeeder.com/fortunechina/keji"  />
+<outline text="财富中文网 / 研究" title="财富中文网 / 研究" type="rss" xmlUrl="https://plink.anyfeeder.com/fortunechina/report"  />
+</outline>
+<outline text="编程" title="编程">
+<outline text="InfoQ 中文" title="InfoQ 中文" type="rss" xmlUrl="https://plink.anyfeeder.com/infoq/recommend"  />
+</outline>
+</body></opml>
